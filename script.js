@@ -33,7 +33,7 @@ async function findWeather(latitude, longitude) {
     `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=9c8663ae0a652aae62617589a4accaa9&units=metric`
   );
   let data = await response.json();
-  console.log(data)
+
 
   //For weather
   let weatherObj = data.weather;
