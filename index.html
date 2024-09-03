@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div class="main__div">
+    <div class="input__div">
+      <div class="input__div--header">
+         <h1 class="logo">Forcast</h1>
+        <div class="location__div">
+          <img src="images/location_on_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg">
+          <div class="location__info">
+            <h3 class="current">Current Location</h3>
+            <h2 class="current__location"></h2>
+          </div>
+        </div>
+      </div>
+      <div class="input__div--main">
+        <div class="input__div--wrapper">
+       <h1 class="heading">The Only Weather Forecast You Need</h1> 
+        <div class="splitter__white"></div>
+        <div class="search__wrapper">
+          <div class = "input__field--wrapper">
+          <input type="search" placeholder="Enter location" class="search__input">
+          <img class="search__icon" src="images/search_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg">
+          </div>
+          <img class="userLocation" src="images/my_location_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg">
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="output__div">
+      <div class="nav__div">
+       <h2 class="nav_link">Weather</h2>
+        <div class="nav__border"></div>
+      </div>
+      <div class="output__div--top"> 
+         <div class = "output__main--div">
+        <h1 class="heading1">Today</h1>
+        <div class="output__main--wrapper">
+        <div class="output__main">
+          <div class="output__main--left output__main--left--top">
+            <h1 class="temp"></h1>
+            <div class="weather__type-div">
+              <h1 class="weather__type"></h1>
+              <img class="weather__icon" src="">
+            </div>
+            <p class="date"></p>
+          </div>
+          <div class="spliter"></div>
+          <div class="output__main--left">
+            <p class="details realfeel"></p>
+            <p class="details humidity"></p>
+            <p class="details pressure"></p>
+            <p class="details cloudcover"></p>
+            <p class="details visibility"></p>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      <div class="output__div--bottom">
+        <h1 class="daily">Daily</h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+        </div>
+      </div>     
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
