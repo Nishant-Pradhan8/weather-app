@@ -10,7 +10,7 @@
         <li><strong>Search Functionality:</strong> Users can search for weather information by city name.</li>
     </ul>
     <h2 id="demo">Demo</h2>
-    <p>You can check out the live demo of the app <a href="https://nishant-pradhan8.github.io/weather-app/">here</a>.</p>
+    <p>You can check out the live demo of the app <a href="https://nishant-pradhan-8.github.io/weather-app/">here</a>.</p>
     <h2 id="technologies-used">Technologies Used</h2>
     <ul>
         <li><strong>HTML:</strong> Structure of the application.</li>
